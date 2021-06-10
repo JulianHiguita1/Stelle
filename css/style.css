@@ -1,0 +1,80 @@
+/*---Inicio---*/
+.b{
+    background-color: rgba(255, 255, 255, 0.548);
+    border-color: rgba(0, 0, 0, 0.329);
+    font-family: 'Times New Roman', Times, serif
+}
+
+.e{
+    border-radius: 25%;
+    border-color: rgb(255, 255, 255);
+}
+
+#navegacion{
+    height: 70px;
+    width: 100%;
+    background-color:rgb(0, 0, 0);
+}
+
+.registro a{
+    color: white;
+    
+}
+
+.registro{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.registro a:hover{
+    text-decoration: none;
+    color: rgb(154, 255, 154);
+}
+
+.bg{
+    background-color: black;
+}
+
+.lista a{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lista a:hover{
+    text-decoration: none;
+    color: rgb(154, 255, 154);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.naveg{
+    width: 23%;
+}
+
+/*---Registro---*/
+.img{
+    width: 110%;
+    height: 425px;
+}
+
+label{
+    font-weight: 700;
+    
+    display: block;
+}
+
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1rem;
+    display: block;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
