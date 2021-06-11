@@ -77,13 +77,35 @@ select {
 .estilo{
     font-family: 'Times New Roman', Times, serif
 }
+.estilo a:hover{
+    text-decoration: none;
+    color: rgb(154, 255, 154);
+}
+.estilo a{
+    color: black;
+    
+}
 .cabe.header{
-    height: 50vh;
-    min-height: 1rem;
-    background-image: url(../img/clima.jpg);
+    height: 40vh;
+    width: 100%;
+    min-height: 12rem;
     background-position: center center;
     background-size: cover;
 }
 
+.estilo h5{
+    margin-left: 150px;
+}
+
+.estilo p{
+    margin: 0%;
+}
+
+.img{
+    margin-left: 250px;
+    width: 50%;
+    height: 100%;
+    background-position: center, cen;
+}
 
 
