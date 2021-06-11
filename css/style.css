@@ -77,6 +77,13 @@ select {
 .estilo{
     font-family: 'Times New Roman', Times, serif
 }
+.cabe.header{
+    height: 100vh;
+    min-height: 60rem;
+    background-image: url(../img/b.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
 
 
 
