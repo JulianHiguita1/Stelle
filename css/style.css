@@ -78,9 +78,9 @@ select {
     font-family: 'Times New Roman', Times, serif
 }
 .cabe.header{
-    height: 100vh;
-    min-height: 60rem;
-    background-image: url(../img/b.jpeg);
+    height: 50vh;
+    min-height: 1rem;
+    background-image: url(../img/clima.jpg);
     background-position: center center;
     background-size: cover;
 }
