@@ -73,8 +73,10 @@ select {
     border-radius: 1rem;
 }
 
-
-
+/*---Info---*/
+.estilo{
+    font-family: 'Times New Roman', Times, serif
+}
 
 
 
