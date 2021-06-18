@@ -74,6 +74,9 @@ select {
 }
 
 /*---Info---*/
+.fondo{
+    background-color: rgb(24, 24, 24);
+}
 .estilo{
     font-family: 'Times New Roman', Times, serif
 }
@@ -82,8 +85,11 @@ select {
     color: rgb(154, 255, 154);
 }
 .estilo a{
-    color: black;
+    color:white;
     
+}
+.estilo h3{
+    color: white;
 }
 .cabe.header{
     height: 40vh;
