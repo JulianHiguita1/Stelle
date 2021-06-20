@@ -130,8 +130,10 @@ select {
     margin-right: 540px;
 }
 .qh{
-    margin-top: 35px;
+    margin-top: 25px;
     margin-left: 550px;
 }
-.bqh{
+.vl{
+    margin-bottom: 30px;
+    border-left: 1px solid black;
 }
