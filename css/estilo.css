@@ -1,22 +1,8 @@
 /*---Inicio---*/
 .logo{
     margin-top: 5px;
-    padding-top: 1px;
-    padding-right: 650px;
+    margin-right: 510px;
 }
-
-.opciones{
-    font-size: 20px;
-    padding-top: 11px;
-    width: 130px;
-    text-align: center;
-}
-
-.estilo{
-    height: 60px;
-    width: 100%;
-}
-    
 .ico{
     margin-top: 5px;
     margin-left: 5px;
@@ -41,6 +27,7 @@
 
 .registro a{
     color: white;
+    
 }
 
 .registro{
@@ -73,6 +60,10 @@
 }
 
 /*---Registro---*/
+.img{
+    width: 110%;
+    height: 100%;
+}
 
 label{
     font-weight: 700;
@@ -106,6 +97,7 @@ select {
     color:white;
     
 }
+
 .cabe.header{
     height: 40vh;
     width: 100%;
@@ -152,3 +144,4 @@ select {
 .icono{
     color: rgb(154, 255, 154);
 }
+
