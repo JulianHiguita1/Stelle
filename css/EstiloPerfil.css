@@ -1,4 +1,23 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+*{
+    margin:0px;
+    padding:0px;
+}
+
+img#perfil{
+    height:200px;
+    width:auto;
+    float: left;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    border : 1px solid #000
+    
+}
+>>>>>>> 0385c40851da6bde9721d2b6d09798e142787970
 
 nav{
     float:right;
@@ -66,7 +85,11 @@ h3#letras{
     margin-top: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> 0385c40851da6bde9721d2b6d09798e142787970
 /*---Inicio---*/
 .logo{
     margin-top: 5px;
@@ -210,4 +233,8 @@ select {
 .qh button{
     border-radius: 10px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> eff2d4b61b8f14cd753892a5296c95ab479aab1a
+>>>>>>> 0385c40851da6bde9721d2b6d09798e142787970
