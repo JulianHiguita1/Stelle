@@ -139,7 +139,7 @@ select {
 }
 .vl{
     margin-bottom: 30px;
-    border-left: 1px solid black;
+    border-left: 1px solid rgb(61, 37, 37);
 }
 .qh button{
     border-radius: 10px;
