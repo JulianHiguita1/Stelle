@@ -243,14 +243,17 @@ select {
     margin-bottom: 20px;
 }
 .txt{
-    font-size: 16px;
-    margin-top: 10px;
-    margin-left: 160px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 40px;
 }
 .txt2{
-    margin-left: 320px;
+    margin-left: 100px;
 }
-.color{
+.colorbtn{
     color: white;
+    border-radius: 15px;
+    width: 500px;
+    
 }
 
