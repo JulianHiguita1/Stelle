@@ -255,8 +255,26 @@ select {
     width: 500px;
     
 }
-.m-img{
-    height: 80%;
-    width: 500px;
+.carru{
+    margin: 0 auto;
+    margin-left: 400px;
 }
+.text-carru{
+    margin-left: 100px;
+    font-family: cursive;
+}
+.m-img{
+    margin-left: -90px;
+    height: 50%;
+    width: 400px;
+}
+.contenedor {
+    position: relative;
+  }
+  
+.bE {
+    position: absolute;
+    top: 35%;
+    margin-top: -25px; /* (- menos) la mitad del valor de la altura del elemento hijo */
+  }
 
