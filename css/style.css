@@ -9007,12 +9007,9 @@ textarea.form-control {
   overflow: hidden;
   padding: 7em 0; }
   .footer a {
-    color: #00bd56; }
+    color: rgb(154, 255, 154); }
   .footer p {
     color: rgba(255, 255, 255, 0.6); }
-  .footer .copyright {
-    color: rgba(255, 255, 255, 0.3);
-    color: #999999; }
   .footer .footer-heading {
     font-size: 22px;
     margin-bottom: 30px;
@@ -9026,7 +9023,7 @@ textarea.form-control {
       content: '';
       width: 40px;
       height: 4px;
-      background: #00bd56; }
+      background: rgb(154, 255, 154) }
   .footer ul.list-unstyled li a {
     color: rgba(255, 255, 255, 0.7); }
   .footer .block-21 .img {
@@ -9057,7 +9054,7 @@ textarea.form-control {
       color: rgba(255, 255, 255, 0.4); }
   .footer .ftco-footer-social li a {
     background: rgba(255, 255, 255, 0.1);
-    color: #00bd56; }
+    color: rgb(154, 255, 154); }
 
 .ftco-footer-social li {
   list-style: none;

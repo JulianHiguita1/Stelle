@@ -254,12 +254,12 @@ select {
     width: 500px;
     
 }
-.carrusel{
+.carru{
     margin: 0 auto;
     margin-left: 400px;
 }
 .text-carru{
-    margin-left: 100px;
+    margin-left: px;
     font-family: cursive;
 }
 .m-img{
