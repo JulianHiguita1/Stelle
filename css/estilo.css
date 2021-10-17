@@ -277,3 +277,19 @@ select {
     margin-top: -25px; /* (- menos) la mitad del valor de la altura del elemento hijo */
   }
 
+/*---Los lugares---*/
+
+  
+.medellin {
+    margin-top: 245px;
+    margin-right: 1000px;
+}
+.f{
+    font-weight: bold;
+    font-weight: 700;
+}
+
+.texto{
+   margin: 0 auto;
+   text-align: center;
+}
