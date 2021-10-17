@@ -12,12 +12,16 @@ if(isset($_POST['signup-btn'])) {
     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
     try{
+        /*$SQLInsert = "INSERT INTO stelle_users (username, password, email, contact)
+                      VALUES ('$username', '$hashed_password', '$email', '$contact')";*/
+
         $SQLInsert = "INSERT INTO stelle_users (username, password, email, contact)
-                      VALUES ('$username', '$hashed_password', '$email', '$contact')";
+        VALUES (?,?,?,?)";
         
         $statement = $conn->prepare($SQLInsert);
-        $statement->execute(array(':username' => $username, ':password' => $hashed_password, ':email' => $email, ':contact' => $contact));
-
+       // $statement->execute(array(':username' => $username, ':password' => $hashed_password, ':email' => $email, ':contact' => $contact));
+        $statement->execute([$username, $hashed_password, $email, $contact]);
+       
         if($statement->rowCount() == 1){
             header('location: index.html');
         }
