@@ -5,12 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/all.min.css">
-		<link rel="stylesheet" type="text/css" href="css/videoFondo.css">
-		<link rel="stylesheet" href="css/estilo.css">
+		    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+		    <link rel="stylesheet" type="text/css" href="css/videoFondo.css">
+        <link rel="stylesheet" href="css/estilo.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="images/stelle.jpg">
         <title>Clima</title>
     </head>
     <body>
@@ -31,29 +32,33 @@
                         <a class="nav-link" href="Blog.html">Blog</a>
                     </li>
                     <li>
-                          <div id="mySidenav" class="sidenav">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            <div><i class="far fa-user user"></i></div>
-                            <p class="log-in">INICIAR SESIÓN</p>
-                            <form action="">
-                              <div class="col-12">
-                                <label for="inputAddress" class="form-label us">Usuario</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="Usuario">
-                              </div>
-                              <div class="col-12">
-                                <label for="inputAddress2" class="form-label us">Contraseña</label>
-                                <input type="password" class="form-control" id="inputAddress2" placeholder="Contraseña">
-                              </div>
-                              <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="dropdownCheck">
-                                <label class="form-check-label text-light registro" for="dropdownCheck">
-                                  Recordar
-                                </label>
-                              </div>
-                            </form>
-                            <a href="#" style="color: gray; font-size: 15px;">Restablecer contraseña</a>
-                            <a href="registro.html" style="color: gray; font-size: 15px;">Registrarse</a>
+                      <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div><i class="far fa-user user"></i></div>
+                        <p class="log-in">INICIAR SESIÓN</p>
+                        <form action="login.php" method="POST">
+                          <div class="col-12">
+                            <label for="inputAddress" class="form-label us">Usuario</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Usuario" name="user-name">
                           </div>
+                          <div class="col-12">
+                            <label for="inputAddress2" class="form-label us">Contraseña</label>
+                            <input type="password" class="form-control" id="inputAddress2" placeholder="Contraseña" name="user-pass">
+                          </div>
+                          <div class="col-12">
+                            <input type="submit" class="btn-secondary" value="Ingresar" name="login-btn">
+                          </div>
+                          <br>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                            <label class="form-check-label text-light registro" for="dropdownCheck">
+                              Recordar
+                            </label>
+                          </div>
+                        </form>
+                        <a href="#" style="color: gray; font-size: 15px;">Restablecer contraseña</a>
+                        <a href="registro.html" style="color: gray; font-size: 15px;">Registrarse</a>
+                      </div>
                         
                           <a onclick="openNav()"><i class="far fa-user-circle fa-2x ico"></i></a>
                     </li>

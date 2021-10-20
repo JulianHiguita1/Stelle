@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/stelle.jpg">
   <title>Qué hacer</title>
 </head>
 
@@ -36,15 +37,19 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div><i class="far fa-user user"></i></div>
             <p class="log-in">INICIAR SESIÓN</p>
-            <form action="">
+            <form action="login.php" method="POST">
               <div class="col-12">
                 <label for="inputAddress" class="form-label us">Usuario</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="Usuario">
+                <input type="text" class="form-control" id="inputAddress" placeholder="Usuario" name="user-name">
               </div>
               <div class="col-12">
                 <label for="inputAddress2" class="form-label us">Contraseña</label>
-                <input type="password" class="form-control" id="inputAddress2" placeholder="Contraseña">
+                <input type="password" class="form-control" id="inputAddress2" placeholder="Contraseña" name="user-pass">
               </div>
+              <div class="col-12">
+                <input type="submit" class="btn-secondary" value="Ingresar" name="login-btn">
+              </div>
+              <br>
               <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="dropdownCheck">
                 <label class="form-check-label text-light registro" for="dropdownCheck">
@@ -146,11 +151,11 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="work mb-4 img d-flex align-items-end" style="background-image: url(images/vdl.jpg);">
+          <div class="work mb-4 img d-flex align-items-end" style="background-image: url(images/cañoCristales.jpg);">
             <div class="desc w-100 px-4">
               <div class="w-100 mb-3 text-center">
-                <h2 class="registro" style="margin-bottom: 80px;"><a href="work-single.html">Volcán de lodo</a></h2>
-                <span><i class="fas fa-map-marker-alt text-light">Arboletes</i></span>
+                <h2 class="registro" style="margin-bottom: 80px;"><a href="Caño_Cristales.html">Caño cristales</a></h2>
+                <span><i class="fas fa-map-marker-alt text-light"> Meta</i></span>
               </div>
             </div>
           </div>

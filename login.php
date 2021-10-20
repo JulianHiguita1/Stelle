@@ -12,23 +12,23 @@ if(isset($_POST['login_btn'])){
 
         $SQLQUERY = "SELECT * FROM stelle_users WHERE username = username";
         $statement = $conn->prepare($SQLQuery);
-        $statement->execute(array(':username' => $username));
+        $statement->execute(array(':username' => $user));
 
         while($row = $statement->fetch()){
-
+            
             $id = $row['id'];
             $hashed_password = $row['password'];
-            $username = $row['username'];
+            $user = $row['username'];
 
             if(password_verify($password, $hashed_password)){
 
                 $_SESSION['id'] = $id;
-                $_SESSION['username'] = $username;
+                $_SESSION['username'] = $user;
                 header('location: index.html');
 
             }
             else{
-                echo "Error, los datos de usuario y contraseña no coinciden"
+                echo "Error, los datos de usuario y contraseña no coinciden";
             }
         }
     }
