@@ -24,7 +24,7 @@ if(isset($_POST['login-btn'])) {
 
 					$_SESSION['id'] = $id;
 					$_SESSION['username'] = $username;
-					header('location: dashboard.php');
+					header('location: index.html');
 				}
 				else {
 					echo "Error: los datos de usuario y contraseña no coinciden.";
